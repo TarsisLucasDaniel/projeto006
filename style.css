@@ -1,18 +1,17 @@
-@import url(estilos/); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url(estilos/fonts.css); @import url(estilos/main.css);
 
 :root{
     --cor1:#F2C12E;
     --cor2:#F2A516;
     --cor3:#F2780C;
-    --co03:#F2780C;
+    --co03:#be3a0a;
     --cor4:#8C2C08;
     --cor5:#260606;
     --fonte-titulo:"Host Grotesk", serif;
     --fonte-sub-titulo:;
+    --font-links:"Exo 2", serif;
     --fonte-paragrafo:;
     --cor-de-fundo:;
-
 }
 
 *{
@@ -22,13 +21,16 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-image: url(imagens/istockphoto-1291422886-640x640.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--cor4)  );
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--co03), var(--cor4)  );
     padding: 20px;
-    width: 100%;
     min-height: 100px;
 }
 
@@ -66,6 +68,7 @@ nav{
 #container-links > a > img {
     border-radius: 50%;
     box-shadow: 2px 2px 10px black;
+    transition-duration: 0.5s;
 }
 
 #container-links> a{
@@ -74,8 +77,28 @@ nav{
 }
 
 #container-links > a > img:hover{
-    transition-duration: 0.5s;
     transform: translate(-4px, -4px);
     box-shadow: 3px 3px 15px black;
-    border: ;
+}
+
+#container-dois-links{
+    text-align: right;
+    display: flex;
+    margin-right: 15px;
+}
+
+#container-dois-links > a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+    font-family: var(--font-links);
+    margin: 5px;
+    height: 10px;
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+
+#container-dois-links > a:hover{
+    color: #df501c;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
 }
