@@ -1,8 +1,59 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#F2C12E;
+    --cor2:#F2A516;
+    --cor3:#F2780C;
+    --co03:#be3a0a;
+    --cor4:#8C2C08;
+    --cor5:#260606;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-paragrafo:;
+    --cor-de-fundo:;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 main{
-    background-color: #f7c334;
+    background-color: #f7c33436;
     max-width: 950px;
     margin-bottom: 30px;
     margin: auto;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+main > #sessao-1{
+    background-color: #fd9800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+
+main > #sessao-1 > h1{
+    background-image: linear-gradient(to bottom,#fd5000, #fd7a00fd, transparent );
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-sub-titulo);
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+   
+
 }

@@ -7,9 +7,9 @@
     --co03:#be3a0a;
     --cor4:#8C2C08;
     --cor5:#260606;
-    --fonte-titulo:"Host Grotesk", serif;
-    --fonte-sub-titulo:;
-    --font-links:"Exo 2", serif;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
     --fonte-paragrafo:;
     --cor-de-fundo:;
 }
@@ -35,21 +35,23 @@ header{
 }
 
 header > h1{
-    font-family: var(--fonte-titulo);
-    color: #260606;
+    font-family:var(--fonte-titulo);
+    color: #91B130;
     text-align: center;
-    text-shadow: 2px 2px 10px white;
-    font-size: 3.4em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.877);
+    font-size: 4em;
     font-weight: bolder;
     letter-spacing: 5px;
+    margin-bottom: 8px;
 }
 
 header > p{
-    color: #260606a8;
+    color: #F7A30C;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.829);
+    letter-spacing: 1px;
 }
 
 nav{
@@ -78,13 +80,14 @@ nav{
 
 #container-links > a > img:hover{
     transform: translate(-4px, -4px);
-    box-shadow: 3px 3px 15px black;
+    box-shadow: 6px 6px 15px black;
 }
 
 #container-dois-links{
     text-align: right;
     display: flex;
     margin-right: 15px;
+    letter-spacing: 1px;
 }
 
 #container-dois-links > a{
