@@ -36,9 +36,9 @@ header{
 
 header > h1{
     font-family:var(--fonte-titulo);
-    color: #91B130;
+    color: #0e0d0d;
     text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.877);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
     font-size: 4em;
     font-weight: bolder;
     letter-spacing: 5px;
@@ -46,7 +46,7 @@ header > h1{
 }
 
 header > p{
-    color: #F7A30C;
+    color: #e6dadab9;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
