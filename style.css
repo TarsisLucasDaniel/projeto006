@@ -102,6 +102,7 @@ nav{
 }
 
 #container-dois-links > a:hover{
+    font-family: ;
     color: #df501c;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
 }

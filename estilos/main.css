@@ -10,6 +10,7 @@
     --fonte-titulo:"Exo 2", serif;
     --fonte-sub-titulo:"Host Grotesk", serif;
     --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
     --fonte-paragrafo:;
     --cor-de-fundo:;
 }
@@ -28,27 +29,65 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
 }
 
+#caixa-img-1{
+    max-width: 260px;
+    margin-left: 50px;
+}
+
+#caixa-img-2{
+    max-width: 260px;
+    margin-right: 50px;
+}
+
+#caixa-img-1 > img{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+#caixa-img-1 > img.pequena{
+    max-width: 125px;
+    display: block;
+    margin: auto;
+}
+
+#caixa-img-2 > img{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+#caixa-img-2 > img.pequena{
+    max-width: 125px;
+    display: block;
+    margin: auto;
+}
+
 main > #sessao-1{
-    background-color: #fd9800;
-    padding-top: 20px;
+    background-color: #DFDEDE;
+    padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
-
 }
 
-main > #sessao-1 > h1{
-    background-image: linear-gradient(to bottom,#fd5000, #fd7a00fd, transparent );
+#sessao-1 > ul{
+    padding-left: 15px;
+}
+
+#sessao-1 > ul > li{
+    color: ;
+}
+
+#sessao-1-titulo{
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-left: 20px;
     font-family: var(--fonte-sub-titulo);
-    color: #ffffff;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
-    letter-spacing: 2px;
-    font-size: 2.5em;
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    text-align: left;
+    font-size: 2em;
+    letter-spacing: 1px;
     font-weight: bold;
-    text-align: center;
     margin-top: -20px;
     margin-left: -10px;
     margin-right: -10px;
@@ -56,22 +95,44 @@ main > #sessao-1 > h1{
     border-top-right-radius:5px ;
 }
 
-#container-caixas-img{
+#sessao-1-sub-titulo{
+    color: #000000b9;
+    text-align: left;
+    padding-left: 13px;
+    font-size: 1em;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
+    padding-bottom: 40px;
+    font-family: var(--fonte-sub-titulo);
+}
+
+#sessao-2{
+    display: flex;
     justify-content: space-between;
     position: relative;
-    display: flex;
     padding: 10px;
-    background-color: black; 
+    background-color: #cacaca;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
 }
 
-#caixa-not-1{
-    display: flex;
-    background-color: white;
-    width: 50px;
+#titulo-acer-i5{
+    margin-left:-10px ;
+    margin-right: -10px;
+    background-color: #cacaca;
+    padding-top: 10px;
+    font-family: var(--fonte-titulo-notebook);
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    text-shadow: 1px 1px 2px white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
-#caixa-not-2{
-    display: flex;
-    background-color: white;
-    width: 50px;
-}
+
+
+
+
+
