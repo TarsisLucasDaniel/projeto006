@@ -13,6 +13,7 @@
     --fonte-titulo-notebook: "Ysabeau SC", serif;
     --fonte-paragrafo:;
     --cor-de-fundo:;
+    --font-valor-notebok:"Roboto Slab", serif;
 }
 
 *{
@@ -140,8 +141,34 @@ main > #sessao-1{
     font-family: var(--fonte-sub-titulo);
     line-height: 20px;
     
-    
-    
+}
+
+#caixa-valor-descrição-notebook{
+    margin-top: -10px;
+    padding: 10px;
+    background-color: #CACACA;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#h2-titulo-valor-descrição{
+    color: #6b6b6b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+#h1-titulo-valor-descrição{
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+    font-size:1.4em ;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+#p-paragrafo-valor-descrição{
+    font-size: 13px;
+    padding-top: 1px;
 }
 
 
