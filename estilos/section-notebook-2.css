@@ -1,0 +1,22 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#F2C12E;
+    --cor2:#F2A516;
+    --cor3:#F2780C;
+    --co03:#be3a0a;
+    --cor4:#8C2C08;
+    --cor5:#260606;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-paragrafo:;
+    --cor-de-fundo:;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
