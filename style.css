@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css);
+@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);
 
 :root{
     --cor1:#F2C12E;
@@ -102,7 +102,6 @@ nav{
 }
 
 #container-dois-links > a:hover{
-    font-family: ;
     color: #df501c;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
 }
