@@ -21,7 +21,7 @@
     margin: 0px;
 }
 
-#titulo-acer-predator-horios{
+#titulo-acer-nitro-16{
     margin-left:-10px ;
     margin-right: -10px;
     background-color: #cacaca;
@@ -35,7 +35,7 @@
     border-top-right-radius: 2px;
 }
 
-#sessao-4{
+#sessao-5{
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -46,7 +46,7 @@
     margin-right: -10px;
 }
 
-#caixa-descrição-notebook-acer-predator-helios{
+#caixa-descrição-notebook-acer-nitro-16{
     background-color: #CACACA;
     margin-left:-10px ;
     margin-right: -10px;
@@ -54,7 +54,7 @@
     margin-bottom: 20px;
 }
 
-#paragrafo-caixa-descrição-notebook-acer-predator{
+#paragrafo-caixa-descrição-notebook-acer-nitro-16{
     color: rgb(41, 41, 41);
     text-align: justify;
     font-size: 14px;
@@ -64,7 +64,7 @@
     line-height: 20px;
 }
 
-#caixa-valor-descrição-notebook-acer-predator{
+#caixa-valor-descrição-notebook-acer-nitro-16{
     margin-top: -10px;
     padding: 10px;
     background-color: #CACACA;
@@ -72,14 +72,14 @@
     border-radius: 5px;
 }
 
-#h2-titulo-valor-descrição-acer-predator{
+#h2-titulo-valor-descrição-acer-nitro-16{
     color: #6b6b6b;
     font-size: 15px;
     font-weight: bold;
-    font-family: "Roboto Slab", serif; 
+    font-family: "Roboto Slab", serif;
 }
 
-#h1-titulo-valor-acer-predator{
+#h1-titulo-valor-acer-nitro-16{
     margin-top: -6px;
     color: rgb(0, 0, 0);
     font-size:1.4em ;
@@ -87,18 +87,8 @@
     font-family: "Roboto Slab", serif;
 }
 
-#p-paragrafo-valor-descrição-acer-predator{
+#p-paragrafo-valor-descrição-acer-nitro-16{
     font-size: 13px;
     padding-top: 1px;
     font-family: var(--fonte-sub-valor);
 }
-
-    
-
-
-
-
-
-   
-
-    

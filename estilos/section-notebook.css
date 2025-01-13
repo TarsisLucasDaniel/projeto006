@@ -11,7 +11,7 @@
     --fonte-sub-titulo:"Host Grotesk", serif;
     --font-links:"Kanit", serif;
     --fonte-titulo-notebook: "Ysabeau SC", serif;
-    --fonte-paragrafo:;
+    --fonte-sub-valor:"Quicksand", serif;
     --cor-de-fundo:;
     --font-valor-notebok:"Roboto Slab", serif;
 }
@@ -90,4 +90,5 @@
 #p-paragrafo-valor-descrição-acer-nitro{
     font-size: 13px;
     padding-top: 1px;
+    font-family: var(--fonte-sub-valor);
 }
