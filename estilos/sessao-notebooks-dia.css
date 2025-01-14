@@ -1,0 +1,94 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#F2C12E;
+    --cor2:#F2A516;
+    --cor3:#F2780C;
+    --co03:#be3a0a;
+    --cor4:#8C2C08;
+    --cor5:#260606;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+    --fonte-titulos-notebooks-dia-dia:"Arvo", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#sessao-notebooks-dia-a-dia{
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+}
+
+#sessao-titulo-note-dia-dia{
+    padding-top: 5px;
+    font-family:var(--fonte-sub-valor);
+    color: #000000;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight:bold;
+    margin-top: -20px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+
+#sessao-sub-titulo-note-dia-dia{
+    color: #000000b9;
+    margin-top: -2px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
+    padding-bottom: 25px;
+    font-family: var(--fonte-sub-titulo);
+}
+
+.titulos-notebooks-dia-dia{
+    margin-left:-10px ;
+    margin-right: -10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-titulos-notebooks-dia-dia);
+    font-size: 1.1em;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient( #adabab, transparent);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#sessao-1-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+
+
+
+
+
+

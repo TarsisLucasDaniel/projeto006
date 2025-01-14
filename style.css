@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);
+@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);
 
 :root{
     --cor1:#F2C12E;
@@ -36,9 +36,9 @@ header{
 
 header > h1{
     font-family:var(--fonte-titulo);
-    color: #0e0d0d;
+    color: #ffffff;
     text-align: center;
-    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
     font-size: 4em;
     font-weight: bolder;
     letter-spacing: 5px;
@@ -46,11 +46,11 @@ header > h1{
 }
 
 header > p{
-    color: #e6dadab9;
+    color: #e6dadad7;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.829);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.829);
     letter-spacing: 1px;
 }
 

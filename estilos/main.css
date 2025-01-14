@@ -64,7 +64,7 @@ main{
 main > #sessao-1{
     background-color: #DFDEDE;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 1px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
