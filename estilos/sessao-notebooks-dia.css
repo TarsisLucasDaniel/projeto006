@@ -13,7 +13,7 @@
     --fonte-titulo-notebook: "Ysabeau SC", serif;
     --fonte-sub-valor:"Quicksand", serif;
     --font-valor-notebok:"Roboto Slab", serif;
-    --fonte-titulos-notebooks-dia-dia:"Arvo", serif;
+    --fonte-titulos-notebooks-dia-dia: "Lato", serif;
 }
 
 *{
@@ -64,13 +64,13 @@
     padding-left: 20px;
     padding-bottom: 5px;
     font-family: var(--fonte-titulos-notebooks-dia-dia);
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: left;
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     background-image: linear-gradient( #adabab, transparent);
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
@@ -84,6 +84,25 @@
     border-radius: 2px;
     margin-left:-10px ;
     margin-right: -10px;
+}
+
+.caixa-descrição-notebooks-dia-dia{
+    background-color: #F5F5F5;
+    margin-left:-10px ;
+    margin-right: -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient( to top, #adabab98, transparent);
+}
+
+.descrição-notebooks-dia-dia{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 15px;
+    text-indent: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-sub-titulo);
+    line-height: 20px;
 }
 
 
