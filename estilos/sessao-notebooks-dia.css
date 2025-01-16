@@ -75,7 +75,48 @@
     border-top-right-radius: 2px;
 }
 
+.titulos-modelos{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    text-indent: 16px;
+}
+
 #sessao-1-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+#sessao-2-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+#sessao-3-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+#sessao-4-notebooks-dia-dia{
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -104,6 +145,8 @@
     font-family: var(--fonte-sub-titulo);
     line-height: 20px;
 }
+
+
 
 
 
