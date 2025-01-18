@@ -21,9 +21,51 @@
     margin: 0px;
 }
 
+#caixa-divisão{
+    width: 100%;
+    height:10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top:10px;
+    background-color: #e4ba16;
+}
+
+.caixa-valor-descrição-notebooks-dia-a-dia{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F7D10A;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.h2-titulo-valor-descrição-note-dia-a-dia{
+    color: #6b6b6b;
+    text-shadow: 1px 1px 1px white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+.h1-titulo-valor-acer-dia-a-dia{
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px white;
+    font-size:1.4em ;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+.p-paragrafo-valor-descrição-dia-a-dia{
+    font-size: 13px;
+    padding-top: 1px;
+    font-family: var(--fonte-sub-valor);
+}
+
 #sessao-notebooks-dia-a-dia{
     background-color: #F5F5F5;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -117,6 +159,28 @@
 }
 
 #sessao-4-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+#sessao-5-notebooks-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+#sessao-6-notebooks-dia-dia{
     display: flex;
     justify-content: space-between;
     position: relative;
