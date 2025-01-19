@@ -30,6 +30,15 @@
     background-color: #e4ba16;
 }
 
+.caixa-divisão-2{
+    width: 100%;
+    height:10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top:10px;
+    background-color: #F5F5F5;
+}
+
 .caixa-valor-descrição-notebooks-dia-a-dia{
     margin-top: 7px;
     margin-bottom: 10px;
