@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);
+@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);  @import url(estilos/propaganda.css);
 
 :root{
     --cor1:#F2C12E;
