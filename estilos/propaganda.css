@@ -1,12 +1,11 @@
 @import url(estilos/fonts.css); 
 
 :root{
-    --cor1:#F2C12E;
-    --cor2:#F2A516;
-    --cor3:#F2780C;
-    --co03:#be3a0a;
-    --cor4:#8C2C08;
-    --cor5:#260606;
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
     --fonte-titulo:"Exo 2", serif;
     --fonte-sub-titulo:"Host Grotesk", serif;
     --font-links:"Kanit", serif;
@@ -21,7 +20,7 @@
 }
 
 #sessao-propaganda{
-    background-color: #ffffff;
+    background-color: #f7c33436;
     max-width: 1400px;
     margin: auto;
     padding-bottom: 20px;
@@ -29,36 +28,47 @@
 }
 
 #propaganda-numero-um{
-    background-color: #DFDEDE;
+    background-color: #3bca1f;
     padding-top: 30px;
     padding-bottom: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
 }
 
 #titulo-propagando-um{
     padding-top: 5px;
-    padding-left: 20px;
-    font-family:var(--fonte-titulos-propaganda) ;
-    color: #000000;
-    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    padding-left: 30px;
+    font-family: var(--font-links) ;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
     text-align: left;
-    font-size: 2em;
-    letter-spacing: 2px;
+    font-size: 2.2em;
+    letter-spacing: 3px;
     font-weight: bold;
     margin-top: -20px;
 }
 
 #sub-titulo-propaganda-um{
-    color: #000000b9;
+    color: #ffffff;
+    margin-top: -7px;
     text-align: left;
-    padding-left: 13px;
-    font-size: 1em;
+    padding-left: 20px;
+    font-size: 1.3em;
     font-weight: normal;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
-    padding-bottom: 25px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    padding-bottom: 10px;
     font-family: var(--fonte-sub-titulo);
 }
 
+.imagens-propaganda-umm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+
+    
+   
+}
+
+img{
+    width: 100%;
+}

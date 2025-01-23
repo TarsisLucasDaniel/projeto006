@@ -1,12 +1,11 @@
 @import url(estilos/fonts.css); 
 
 :root{
-    --cor1:#F2C12E;
-    --cor2:#F2A516;
-    --cor3:#F2780C;
-    --co03:#be3a0a;
-    --cor4:#8C2C08;
-    --cor5:#260606;
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
     --fonte-titulo:"Exo 2", serif;
     --fonte-sub-titulo:"Host Grotesk", serif;
     --font-links:"Kanit", serif;
@@ -27,7 +26,7 @@
     margin-left: -10px;
     padding-right: 20px;
     padding-top:10px;
-    background-color: #e4ba16;
+    background-color: black;
 }
 
 .caixa-divisão-2{
@@ -66,7 +65,7 @@
     font-weight: bold;
     font-family: "Roboto Slab", serif;
 }
-"Roboto Slab", serif
+
 .p-paragrafo-valor-descrição-dia-a-dia{
     font-size: 13px;
     padding-top: 1px;

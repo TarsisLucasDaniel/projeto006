@@ -1,17 +1,14 @@
 @import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);  @import url(estilos/propaganda.css);
 
 :root{
-    --cor1:#F2C12E;
-    --cor2:#F2A516;
-    --cor3:#F2780C;
-    --co03:#be3a0a;
-    --cor4:#8C2C08;
-    --cor5:#260606;
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
     --fonte-titulo:"Exo 2", serif;
     --fonte-sub-titulo:"Host Grotesk", serif;
     --font-links:"Kanit", serif;
-    --fonte-paragrafo:;
-    --cor-de-fundo:;
 }
 
 *{
@@ -21,7 +18,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagens/istockphoto-1291422886-640x640.jpg);
+    background-image: url(imagens-2/gettyimages-1178169452-640x640.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,7 +26,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--co03), var(--cor4)  );
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--co03), var(--cor4) );
     padding: 20px;
     min-height: 100px;
 }
@@ -56,7 +53,7 @@ header > p{
 
 nav{
     padding: 10px;
-    background-color: #8C2C08;
+    background-color: var(--cor4);
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -92,7 +89,7 @@ nav{
 
 #container-dois-links > a{
     text-decoration: none;
-    color: white;
+    color: rgb(238, 235, 235);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
     font-family: var(--font-links);
     margin: 5px;
@@ -102,6 +99,6 @@ nav{
 }
 
 #container-dois-links > a:hover{
-    color: #df501c;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    color: #ffffff;
+    text-shadow: 1px 1px 0px white;
 }
