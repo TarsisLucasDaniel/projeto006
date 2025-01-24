@@ -19,6 +19,13 @@
     margin: 0px;
 }
 
+#sessao-propaganda-0{
+    background-color: #f7c33436;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
 #sessao-propaganda{
     background-color: #f7c33436;
     max-width: 1400px;
