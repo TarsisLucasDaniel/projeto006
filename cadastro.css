@@ -29,7 +29,8 @@ body{
 }
 
 header{
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     background-color: rgba(255, 255, 255, 0.63);
     width: 100%;
     min-height: 50px;
@@ -50,7 +51,7 @@ header > h1{
 #caixa-1-cadastro{
     position: relative;
     max-width: 700px;
-    height: 96vh;
+    height: 95vh;
     margin: auto;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -64,8 +65,9 @@ header > h1{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.582);
     border: 3px solid #1fa102;
     width:400px;
-    height: 500px;
-    padding: 20px;
+    height: 450px;
+    padding: 20px 20px 4px 20px;
+    margin-top: -35px;
 }
 
 #caixa-2-cadastro > h1{
@@ -73,8 +75,19 @@ header > h1{
     font-weight: bold;
     font-size: 2.3em;
     color: rgb(0, 0, 0);
-    text-align: left;
+    text-align: center;
+    letter-spacing: 2px;
 }
+
+#caixa-2-cadastro > h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  }
 
 #caixa-2-cadastro > h2{
     font-family:var(--fonte-sub-valor);
@@ -96,4 +109,61 @@ header > h1{
     background-color: white;
     box-shadow: 0px 0px 0px 1px #8BBB23;
     border: 1px solid #8BBB23;
+}
+
+#caixa-cadastro-3{
+    margin: auto;
+    margin-top: 15px;
+    width: 88%;
+    background-color:  #f7f7f7;
+    padding: 18px 6% 10px 6%;
+    border: 1px solid rgba(147, 184, 189,0.8);
+}
+
+form{
+    width: 100%;
+}
+
+p{
+    margin-bottom:15px;
+  }
+
+label{
+    color: #000000;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: var(--font-links);
+}
+
+input {
+    outline: none;
+    padding: 10px;
+  }
+
+input[type="submit"]{
+    width: 100%;
+    cursor: pointer;  
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    text-shadow: 0 1px 1px #333;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+  }
+
+input[type="submit"]:hover{
+    background: #4ab3c6;
+}
+
+::-webkit-input-placeholder{
+    color: #797979; 
+    font-style: italic;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
 }
