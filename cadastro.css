@@ -66,17 +66,16 @@ header > h1{
     border: 3px solid #1fa102;
     width:400px;
     height: 450px;
-    padding: 20px 20px 4px 20px;
+    padding: 20px 20px 10px 20px;
     margin-top: -35px;
 }
 
 #caixa-2-cadastro > h1{
     font-family:var(--fonte-sub-valor);
-    font-weight: bold;
+    font-weight: 1000;
     font-size: 2.3em;
     color: rgb(0, 0, 0);
     text-align: center;
-    letter-spacing: 2px;
 }
 
 #caixa-2-cadastro > h1:after{
@@ -89,7 +88,28 @@ header > h1{
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
   }
 
-#caixa-2-cadastro > h2{
+ #link-mudar-pagina-1{
+    text-decoration: none;
+    font-family:var(--fonte-sub-valor);
+    font-weight: bold;
+    font-size: 14px;
+    width: 60px;
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#link-mudar-pagina-1:hover{
+    color: #8BBB23;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px #8BBB23;
+    border: 1px solid #8BBB23;
+}
+
+#link-mudar-pagina-2{
+    text-decoration: none;
     font-family:var(--fonte-sub-valor);
     font-weight: bold;
     font-size: 14px;
@@ -99,12 +119,10 @@ header > h1{
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 5px;
-    padding-left: 7px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 5px;
 }
 
-#caixa-2-cadastro > h2:hover{
+#link-mudar-pagina-2:hover{
     color: #8BBB23;
     background-color: white;
     box-shadow: 0px 0px 0px 1px #8BBB23;
@@ -166,4 +184,29 @@ input:-moz-placeholder,
 textarea:-moz-placeholder{
   color: #bebcbc;
   font-style: italic;
+}
+
+img{
+    margin-top: -14px;
+    margin-left: -15px;
+    margin-right: 6px;
+    width: 30px;
+    height: 30px;
+    transition-duration: 0.3s;
+    
+}
+
+img:hover{
+    transform: translate(-1px, -1px);
+    border-radius: 50%;
+    
+}
+
+#paragrafo-entra-conta{
+    width: 175px;
+    font-weight: 600;
+    font-family:var(--fonte-titulo);
+    margin-top: 10px;
+    margin-left: 230px;
+
 }
