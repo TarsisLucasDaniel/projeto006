@@ -193,13 +193,11 @@ img{
     width: 30px;
     height: 30px;
     transition-duration: 0.3s;
-    
 }
 
 img:hover{
     transform: translate(-1px, -1px);
     border-radius: 50%;
-    
 }
 
 #paragrafo-entra-conta{
@@ -208,5 +206,4 @@ img:hover{
     font-family:var(--fonte-titulo);
     margin-top: 10px;
     margin-left: 230px;
-
 }

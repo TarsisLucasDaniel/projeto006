@@ -78,8 +78,49 @@
     padding-bottom: 20px;
     text-align: center;
     width: 100%;
+    
 }
 
 img{
     width: 100%;
+}
+
+#img-propaganda-um{
+    cursor: pointer;
+    height: 500px;
+}
+
+#img-propaganda-dois{
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+}
+
+#caixa-propaganda-monitores{
+    width: 100%;
+    background-color: #3BCA1F;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#caixa-propaganda-monitores-titulo-h1{
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px black;
+    text-indent: 20px;
+    
+
+}
+
+#caixa-propaganda-monitores-sub-titulo-h2{
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-sub-titulo);
+    font-weight: normal;
+    font-size: 18px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+
 }
