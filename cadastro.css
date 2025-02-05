@@ -156,6 +156,7 @@ label{
 input {
     outline: none;
     padding: 10px;
+    border-radius: 10px;
   }
 
 input[type="submit"]{

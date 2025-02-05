@@ -59,6 +59,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     margin-top: -20px;
+    cursor: context-menu;
 }
 
 #sub-titulo-propaganda-um{
@@ -78,7 +79,6 @@
     padding-bottom: 20px;
     text-align: center;
     width: 100%;
-    
 }
 
 img{
@@ -98,29 +98,97 @@ img{
 
 #caixa-propaganda-monitores{
     width: 100%;
-    background-color: #3BCA1F;
+    background-image: linear-gradient(to bottom, #3acc1d, #31a31a69, transparent );
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 #caixa-propaganda-monitores-titulo-h1{
     color: white;
     font-family: var(--fonte-titulo);
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-shadow: 2px 2px 0px black;
-    text-indent: 20px;
-    
-
+    text-align: center;
+    cursor:  context-menu;
 }
 
 #caixa-propaganda-monitores-sub-titulo-h2{
     color: #ffffff;
+    text-align: center;
     text-shadow: 0.5px 0.5px 0px rgb(0, 0, 0);
     font-family: var(--fonte-sub-titulo);
     font-weight: normal;
-    font-size: 18px;
-    text-indent: 20px;
+    font-size: 20px;
     margin-bottom: 10px;
-
 }
+
+#container-monitores-gamers{
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), transparent);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: -9px;
+}
+
+#container-monitores-gamers > .titulo-monitores-gamers{
+    color:rgb(255, 255, 255) ;
+    letter-spacing: 1px;
+    font-family:var(--fonte-sub-valor);
+    font-size:2em;
+    text-align: left;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    text-indent: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#container-monitores-gamers > .sub-titulo-monitores-gamers{
+    font-family: var(--fonte-sub-valor);
+    font-size: 16.5px;
+    font-weight: 600;
+    color: #ececec;
+    text-shadow: 1px 1px 1px black;
+    text-indent: 40px;
+    margin-top: -5px;
+}
+
+#container-imagens-monitores-gamers-1{
+    margin-top: 30px;
+    background-color:#dadada ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.caixa-imagem-monitor-predator{
+    min-width: 150px;
+    max-width: 300px;
+    display: flex;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.caixa-imagem-monitor-nitro-24{
+    min-width: 150px;
+    max-width: 300px;
+    display: flex;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 30px;
+    margin-top: -8px;
+}
+
+
+
+

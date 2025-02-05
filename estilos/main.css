@@ -53,6 +53,7 @@ main > #sessao-1{
     margin-right: -10px;
     border-top-left-radius:5px ;
     border-top-right-radius:5px ;
+    cursor:  context-menu;
 }
 
 #sessao-1-sub-titulo{
