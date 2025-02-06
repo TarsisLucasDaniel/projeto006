@@ -154,41 +154,89 @@ img{
     margin-top: -5px;
 }
 
-#container-imagens-monitores-gamers-1{
+#container-descrição-monitores{
     margin-top: 30px;
-    background-color:#dadada ;
-    padding: 10px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    gap: 20px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
 }
 
-.caixa-imagem-monitor-predator{
-    min-width: 150px;
-    max-width: 300px;
-    display: flex;
-    background-color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
+.caixa-descrição-monitor-predator{
+    background-color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 10px;
     padding-bottom: 5px;
     margin-left: 30px;
-    margin-top: -8px;
+    border-radius: 5%;
 }
 
-.caixa-imagem-monitor-nitro-24{
-    min-width: 150px;
-    max-width: 300px;
-    display: flex;
+.caixa-descrição-monitor-nitro{
     background-color: #FFFFFF;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: 30px;
-    margin-top: -8px;
+    border-radius: 5%;
+}
+
+.caixa-descrição-monitor-predator> p{
+    font-family: var(--font-links);
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.caixa-descrição-monitor-nitro > p{
+    font-family: var(--font-links);
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.caixa-descrição-monitor-predator > h1{
+    background-color: #a5a5a5;
+    text-shadow: 1px 1px 0px white;
+    font-size: 1.2em;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.caixa-descrição-monitor-nitro > h1{
+    background-color: #a5a5a5;
+    text-shadow: 1px 1px 0px white;
+    font-size: 1.2em;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.caixa-descrição-monitor-predator > h1:hover{
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    border:2px solid rgb(0, 255, 55) ;
+    background-color: #000000;
+    transition-duration: 0.5s;
+}
+
+.caixa-descrição-monitor-nitro > h1:hover{
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    border:2px solid rgb(0, 255, 55) ;
+    background-color: #000000;
+    transition-duration: 0.5s;
 }
 
 
 
 
+
+    
