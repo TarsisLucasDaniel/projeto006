@@ -43,35 +43,35 @@
 
 #propaganda-numero-um{
     background-color: #3bca1f;
+    border-radius: 5px;
     padding-top: 30px;
     padding-bottom: 1px;
-    border-radius: 5px;
 }
 
 #titulo-propagando-um{
     padding-top: 5px;
     padding-left: 30px;
     font-family: var(--font-links) ;
+    font-size: 2.2em;
+    font-weight: bold;
     color: #ffffff;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
     text-align: left;
-    font-size: 2.2em;
     letter-spacing: 3px;
-    font-weight: bold;
     margin-top: -20px;
     cursor: context-menu;
 }
 
 #sub-titulo-propaganda-um{
+    font-family: var(--fonte-sub-titulo);
+    font-weight: normal;
+    font-size: 1.3em;
     color: #ffffff;
     margin-top: -7px;
     text-align: left;
-    padding-left: 20px;
-    font-size: 1.3em;
-    font-weight: normal;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    padding-left: 20px;
     padding-bottom: 10px;
-    font-family: var(--fonte-sub-titulo);
 }
 
 .imagens-propaganda-umm{
@@ -105,12 +105,12 @@ img{
 
 #caixa-propaganda-monitores-titulo-h1{
     color: white;
+    cursor:  context-menu;
     font-family: var(--fonte-titulo);
     font-weight: bold;
     font-size: 2.7em;
     text-shadow: 2px 2px 0px black;
     text-align: center;
-    cursor:  context-menu;
 }
 
 #caixa-propaganda-monitores-sub-titulo-h2{
@@ -124,7 +124,7 @@ img{
 }
 
 #container-monitores-gamers{
-    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), transparent);
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -155,30 +155,57 @@ img{
 }
 
 #container-descrição-monitores{
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
     margin-top: 30px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    width: 100%;
-    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
 }
 
 .caixa-descrição-monitor-predator{
     background-color: #FFFFFF;
+    border-radius: 5%;
     padding-left: 15px;
     padding-right: 10px;
-    padding-bottom: 5px;
     margin-left: 30px;
-    border-radius: 5%;
+    border: 3px solid white;
+}
+
+.caixa-descrição-monitor-predator:hover{
+    border: 3px solid black;
+}
+
+.caixa-descrição-monitor-predator > h1{
+    font-size: 15px;
+    font-family: var(--fonte-titulo);
+    color: black;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .caixa-descrição-monitor-nitro{
     background-color: #FFFFFF;
+    border-radius: 5%;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom:5px ;
     margin-right: 30px;
-    border-radius: 5%;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-monitor-nitro:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-monitor-nitro > h1{
+    font-size: 15px;
+    font-family: var(--fonte-titulo);
+    color: black;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .caixa-descrição-monitor-predator> p{
@@ -190,6 +217,10 @@ img{
     text-align: left;
 }
 
+.caixa-descrição-monitor-predator> p:hover{
+    text-decoration: underline;
+}
+
 .caixa-descrição-monitor-nitro > p{
     font-family: var(--font-links);
     font-size: 14px;
@@ -199,40 +230,47 @@ img{
     text-align: left;
 }
 
-.caixa-descrição-monitor-predator > h1{
-    background-color: #a5a5a5;
-    text-shadow: 1px 1px 0px white;
-    font-size: 1.2em;
+.caixa-descrição-monitor-nitro > p:hover{
+    text-decoration: underline;
+}
+
+.caixa-preço-monitores-gamers{
+    transition-duration: 0.4s;
+    background-color: #ffffff;
     border: 2px solid black;
-    color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
 }
 
-.caixa-descrição-monitor-nitro > h1{
-    background-color: #a5a5a5;
+.caixa-preço-monitores-gamers:hover{
+    color: white;
+    transform: translate(-4px, -4px);
+    border:2px solid rgb(0, 255, 55) ;
+    box-shadow: 3px 3px 10px black;
+}
+
+.caixa-preço-monitores-gamers > h1{
     text-shadow: 1px 1px 0px white;
     font-size: 1.2em;
-    border: 2px solid black;
+    font-family: var(--font-valor-notebok);
+    font-weight: normal;
     color: rgb(0, 0, 0);
-    border-radius: 5px;
-    padding: 5px;
 }
 
-.caixa-descrição-monitor-predator > h1:hover{
-    color: white;
-    text-shadow: 1px 1px 0px black;
-    border:2px solid rgb(0, 255, 55) ;
-    background-color: #000000;
-    transition-duration: 0.5s;
+.caixa-preço-monitores-gamers > h2{
+    color: #858585;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
 }
 
-.caixa-descrição-monitor-nitro > h1:hover{
-    color: white;
-    text-shadow: 1px 1px 0px black;
-    border:2px solid rgb(0, 255, 55) ;
-    background-color: #000000;
-    transition-duration: 0.5s;
+.caixa-preço-monitores-gamers > h2{
+    color: #858585;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 
