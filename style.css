@@ -54,7 +54,10 @@ header > p{
 }
 
 nav{
-    padding: 10px;
+    padding-bottom: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 5px;
     background-color: var(--cor4);
     display: flex;
     justify-content: space-between;
@@ -63,7 +66,21 @@ nav{
 
 #container-links{
     display: flex;
-    text-align: left;
+    height: 40px;
+    padding: 2px;
+    margin-left: -2px;
+}
+
+#link-icone-github{
+    margin-right: 13px;
+}
+
+#link-icone-face{
+    margin-right: 13px;
+}
+
+#link-icone-insta{
+    margin-right: 13px;
 }
 
 #container-links > a > img {
@@ -74,7 +91,7 @@ nav{
 
 #container-links> a{
     text-decoration: none;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 #container-links > a > img:hover{
@@ -84,9 +101,8 @@ nav{
 
 #container-dois-links{
     text-align: right;
+    margin-right: 0px;
     display: flex;
-    margin-right: 6px;
-    letter-spacing: 1px;
 }
 
 #container-dois-links > a{
@@ -94,13 +110,20 @@ nav{
     color: rgb(238, 235, 235);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
     font-family: var(--font-links);
-    margin: 5px;
-    height: 10px;
-    padding: 5px;
+    margin-top: 15px;
+    height: 15px;
     transition-duration: 0.4s;
 }
 
 #container-dois-links > a:hover{
     color: #ffffff;
     text-shadow: 1px 1px 0px white;
+}
+
+#link-loja{
+    margin-right: 13px;
+}
+
+#link-promoções{
+    margin-right: 13px;
 }

@@ -52,12 +52,12 @@
     padding-top: 5px;
     padding-left: 30px;
     font-family: var(--font-links) ;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: bold;
     color: #ffffff;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
     text-align: left;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-top: -20px;
     cursor: context-menu;
 }
@@ -65,7 +65,7 @@
 #sub-titulo-propaganda-um{
     font-family: var(--fonte-sub-titulo);
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #ffffff;
     margin-top: -7px;
     text-align: left;
