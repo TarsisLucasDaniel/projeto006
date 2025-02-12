@@ -59,12 +59,13 @@ main > #sessao-1{
 #sessao-1-sub-titulo{
     color: #000000b9;
     text-align: left;
-    padding-left: 13px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
     font-size: 1em;
     font-weight: normal;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
-    padding-bottom: 25px;
     font-family: var(--fonte-sub-titulo);
+    padding-bottom: 25px;
+    padding-left: 13px;
+    margin-top: -4px;
 }
 
 #sessao-2{
