@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);  @import url(estilos/propaganda.css);
+@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);  @import url(estilos/propaganda-e-monitores.css);
 
 :root{
     --cor1:#AAF277;
@@ -18,7 +18,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagens-2/gettyimages-1178169452-640x640.jpg);
+    background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
