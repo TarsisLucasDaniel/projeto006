@@ -215,14 +215,20 @@
     background-image: linear-gradient( to top, #adabab98, transparent);
 }
 
-.descrição-notebooks-dia-dia{
+p.descrição-notebooks-dia-dia{
     color: rgb(0, 0, 0);
-    text-align: justify;
-    font-size: 15px;
-    text-indent: 10px;
-    padding-bottom: 10px;
-    font-family: var(--fonte-sub-titulo);
     line-height: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: var(--fonte-sub-titulo);
+}
+
+p.descrição-notebooks-dia-dia > strong{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+
 }
 
 
