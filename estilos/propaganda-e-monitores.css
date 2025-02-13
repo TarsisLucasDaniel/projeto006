@@ -50,13 +50,13 @@
 
 #titulo-propagando-um{
     padding-top: 5px;
-    padding-left: 30px;
     font-family: var(--font-links) ;
     font-size: 2em;
     font-weight: bold;
     color: #ffffff;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
     text-align: left;
+    text-indent: 20px;
     letter-spacing: 1px;
     margin-top: -20px;
     cursor: context-menu;
@@ -70,7 +70,7 @@
     margin-top: -7px;
     text-align: left;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
-    padding-left: 20px;
+    text-indent: 30px;
     padding-bottom: 10px;
 }
 

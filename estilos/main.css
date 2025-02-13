@@ -99,12 +99,12 @@ main > #sessao-1{
 
 .caixa-img-1{
     max-width: 260px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .caixa-img-2{
     max-width: 260px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .caixa-img-1 > img{
