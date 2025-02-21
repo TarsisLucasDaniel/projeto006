@@ -189,6 +189,17 @@ img{
     font-size: 13px;
 }
 
+.modelo-notebook-acer-nitro31-5{
+    color: rgb(105, 105, 105);
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.modelo-notebook-acer-nitro31-5 > strong{
+    color: black;
+    font-size: 13px;
+}
+
 .nome-monitor{
     font-weight: bold;
     font-family: var(--fonte-titulo);
@@ -216,10 +227,10 @@ img{
 .caixa-descrição-monitor-nitro-27{
     background-color: #FFFFFF;
     border-radius: 5%;
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 5px;
-    margin-left: 30px;
+    margin-left: 10px;
     border: 3px solid white;
 }
 
@@ -230,11 +241,12 @@ img{
 .caixa-descrição-monitor-nitro-31-5{
     background-color: #FFFFFF;
     border-radius: 5%;
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-right: 27px;
-    border: 3px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
 }
 
 .caixa-descrição-monitor-nitro-31-5:hover{
@@ -244,6 +256,14 @@ img{
 .h1-valor-atual{
     text-shadow: 1px 1px 0px white;
     font-size: 20px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.h1-valor-atual-predator-27{
+    text-shadow: 1px 1px 0px white;
+    font-size: 17px;
     font-family: var(--fonte-titulo);
     font-weight: normal;
     color: rgb(0, 0, 0);
