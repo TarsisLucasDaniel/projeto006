@@ -30,7 +30,7 @@ body{
 
 header{
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.63);
     width: 100%;
     min-height: 50px;
@@ -121,6 +121,7 @@ form{
     max-width: 400px;
     background-color:  #dddddd;
     border: 0.5px solid rgb(187, 187, 187);
+    border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
@@ -187,9 +188,10 @@ img:hover{
 }
 
 #paragrafo-entra-conta{
-    width: 175px;
+    width: 100%;
+    text-align: right;
     font-weight: 600;
     font-family:var(--fonte-titulo);
-    margin-top: 10px;
-    margin-left: 230px;
+    margin-top: 15px;
+    
 }
