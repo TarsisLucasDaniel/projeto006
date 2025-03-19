@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media print{
+    html{
+        display: none;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    body{
+        background-color:#054902 ;
+        background-image: none;
+    }
+}
+
