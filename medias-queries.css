@@ -164,6 +164,37 @@
         font-size: 25px;
     }
 
+    #sessao-notebooks-dia-a-dia{
+        margin-left: -10px;
+        margin-right: -10px;
+        border: 1px solid black;
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-titulo-note-dia-dia{
+        font-size: 2.7em;
+        letter-spacing: 1px;
+
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-sub-titulo-note-dia-dia{
+        font-size: 1.3em;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-notebooks-dia-dia{
+        font-size: 1.5em;
+        color: black;
+        text-shadow: 1px 1px 1px green;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-modelos{
+        font-size: 1.1em;
+        text-shadow: 1px 1px 1px white;
+    }
+
+    .caixa-descrição-notebooks-dia-dia > .descrição-notebooks-dia-dia{
+        font-size: 1.1em;
+    }
+
 
 }
 
