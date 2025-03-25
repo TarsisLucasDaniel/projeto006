@@ -6,9 +6,172 @@
     }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (min-width:481px) and (max-width:768px){
     body{
-        background-color:#054902 ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1400px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    header > h1{
+        font-size: 5em;
+    } 
+
+    header > p{
+        font-size: 20px;
+    }
+
+    nav > #container-links {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    #container-links > a{
+        margin-right: 15px;
+    }
+
+    nav > #container-dois-links{
+        display: flex;
+        margin-right: -2px;
+    }
+
+    #container-dois-links > a{
+        margin-right: 15px ;
+        font-size: 1.1em;
+    }
+
+    #sessao-1 > #sessao-1-titulo{
+        font-size: 2.3em;
+    }
+
+    #sessao-1 > #sessao-1-sub-titulo{
+        font-size: 1.2em;
+    }
+
+    #sessao-1 > #titulo-acer-i5{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook > #paragrafo-caixa-descrição-notebook{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook > #h2-titulo-valor-descrição{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook > #h1-titulo-valor-descrição{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-gamer-nitro{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro > #paragrafo-caixa-descrição-notebook-acer-nitro{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro > #h2-titulo-valor-descrição-acer-nitro{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro > #h1-titulo-valor-descrição-acer-nitro{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-predator-horios{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-predator-helios > #paragrafo-caixa-descrição-notebook-acer-predator{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-predator > #h2-titulo-valor-descrição-acer-predator{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-predator > #h1-titulo-valor-acer-predator{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-nitro-16{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro-16 > #paragrafo-caixa-descrição-notebook-acer-nitro-16{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-16 > #h2-titulo-valor-descrição-acer-nitro-16{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-16 > #h1-titulo-valor-acer-nitro-16{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-nitro-17{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro-17 > #paragrafo-caixa-descrição-notebook-acer-nitro-17{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-17 > #h2-titulo-valor-descrição-acer-nitro-17{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-17 > #h1-titulo-valor-acer-nitro-17{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-predator-triton{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-predator-Triton > #paragrafo-caixa-descrição-notebook-predator-Triton{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-predator-Triton > #h2-titulo-valor-descrição-predator-Triton{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-predator-Triton > #h1-titulo-valor-acer-predator-Triton{
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (min-width:1920px) {
+    body{
+        font-family: sans-serif;
+        background-image: none;
+        background-color: #054902;
     }
 }
 
