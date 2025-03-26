@@ -195,6 +195,36 @@
         font-size: 1.1em;
     }
 
+    .caixa-valor-descrição-notebooks-dia-a-dia{
+        width: 240px;
+        margin-left: 11px;
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h2-titulo-valor-descrição-note-dia-a-dia{
+        font-size: 20px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h1-titulo-valor-acer-dia-a-dia{
+        font-size: 26px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .p-paragrafo-valor-descrição-dia-a-dia{
+        font-size: 16px;
+    }
+
+    #propaganda-numero-um > #titulo-propagando-um{
+        font-size: 3.4em;
+    }
+
+    #propaganda-numero-um > #sub-titulo-propaganda-um{
+        font-size: 1.7em;
+        margin-top: -15px;
+        text-indent: 34px;
+
+    }
+
 
 }
 
