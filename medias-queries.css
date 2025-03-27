@@ -15,6 +15,32 @@
         background-attachment: fixed;
         background-size: cover;
     }
+
+    header > h1{
+        font-size: 4em;
+    }
+
+    header > p{
+        font-size: 1.3em;
+    }
+
+    nav > #container-links {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    #container-links > a{
+        margin-right: 15px;
+    }
+
+    #container-dois-links{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    #container-dois-links > a{
+        margin-right: 18px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:1400px) {
@@ -23,7 +49,7 @@
         background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
         background-position: center center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+         background-attachment: fixed;
         background-size: cover;
     }
 
@@ -225,6 +251,13 @@
 
     }
 
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-titulo-h1{
+        font-size: 3em;
+    }
+
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-sub-titulo-h2{
+        font-size: 1.4em;
+    }
 
 }
 
