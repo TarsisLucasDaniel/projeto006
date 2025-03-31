@@ -1,4 +1,18 @@
-@charset "UTF-8";
+@charset "UTF-8"; @import url(estilos/fonts.css);
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
 
 @media print{
     html{
@@ -41,15 +55,20 @@
     #container-dois-links > a{
         margin-right: 18px;
     }
+
+    .caixa-detalhes-monitores-gamers{
+        display: none;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:1400px) {
+
     body{
         font-family: Arial, Helvetica, sans-serif;
         background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
         background-position: center center;
         background-repeat: no-repeat;
-         background-attachment: fixed;
+        background-attachment: fixed;
         background-size: cover;
     }
 
@@ -199,7 +218,6 @@
     #sessao-notebooks-dia-a-dia > #sessao-titulo-note-dia-dia{
         font-size: 2.7em;
         letter-spacing: 1px;
-
     }
 
     #sessao-notebooks-dia-a-dia > #sessao-sub-titulo-note-dia-dia{
@@ -248,7 +266,6 @@
         font-size: 1.7em;
         margin-top: -15px;
         text-indent: 34px;
-
     }
 
     #caixa-propaganda-monitores > #caixa-propaganda-monitores-titulo-h1{
@@ -257,6 +274,70 @@
 
     #caixa-propaganda-monitores > #caixa-propaganda-monitores-sub-titulo-h2{
         font-size: 1.4em;
+    }
+
+    .nome-monitor{
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+    .modelo-notebook{
+        font-size: 1.1em;
+    }
+
+    .caixa-detalhes-monitores-gamers{
+        display: block;
+        margin-top: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-right: 7px;
+    }
+
+    .caixa-descrição-monitor-predator{
+        width: 500px;
+        margin-left: 50px;
+        
+    }
+
+
+    .caixa-descrição-monitor-nitro{
+        width: 500px;
+        margin-right: 50px;
+    }
+
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: 300;
+        font-family:var(--font-links);
+        text-align: justify;
+        line-height: 10px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 500;
+    }
+
+    .caixa-valores-monitor{
+        display: block;
+        text-align: justify;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+
+    .caixa-valores-monitor > .h2-valor-anterior{
+           font-size: 1.3em;
+    }
+
+    .caixa-valores-monitor > .h1-valor-atual{
+        font-size: 1.8em;
+        margin-top: -5px;
+    }
+
+    .caixa-valores-monitor > .p-descontos{
+        font-size: 1em;
+        
     }
 
 }
