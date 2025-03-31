@@ -99,6 +99,11 @@
         font-size: 1.1em;
     }
 
+    #sessao-propaganda-0{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
     #sessao-1 > #sessao-1-titulo{
         font-size: 2.3em;
     }
@@ -276,6 +281,16 @@
         font-size: 1.4em;
     }
 
+    #container-monitores-gamers > .titulo-monitores-gamers{
+        font-size: 2.5em;
+        margin-left: 20px;
+    }
+
+    #container-monitores-gamers > .sub-titulo-monitores-gamers{
+        font-size: 1.3em;
+        margin-left: 20px;
+    }
+
     .nome-monitor{
         font-size: 1.5em;
         text-decoration: underline;
@@ -311,6 +326,20 @@
     .caixa-descrição-monitor-nitro-31-5{
         width: 500px;
         margin-right: 50px;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Predator-57-1{
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8{
+        width: 500px;
+        margin-right: 50px;
+    }
+
+    #img-z{
+        border-radius: 50%;
     }
 
     .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
