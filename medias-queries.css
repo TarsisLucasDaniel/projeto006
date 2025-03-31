@@ -296,11 +296,19 @@
     .caixa-descrição-monitor-predator{
         width: 500px;
         margin-left: 50px;
-        
     }
 
-
     .caixa-descrição-monitor-nitro{
+        width: 500px;
+        margin-right: 50px;
+    }
+
+    .caixa-descrição-monitor-nitro-27{
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .caixa-descrição-monitor-nitro-31-5{
         width: 500px;
         margin-right: 50px;
     }
@@ -336,8 +344,7 @@
     }
 
     .caixa-valores-monitor > .p-descontos{
-        font-size: 1em;
-        
+        font-size: 1em; 
     }
 
 }
