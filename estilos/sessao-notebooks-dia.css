@@ -45,13 +45,15 @@
     background-color: #F7D10A;
     width: 200px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     cursor: pointer;
 }
 
 .caixa-valor-descrição-notebooks-dia-a-dia:hover{
+    transition-duration: 0.5s;
+    text-shadow: 1px 1px 1px rgba(255, 255, 0, 0.986);
     background-color: #ffffff;
-    border: 1px solid #F7D10A;
+    border: 2px solid #F7D10A;
 }
 
 .h2-titulo-valor-descrição-note-dia-a-dia{

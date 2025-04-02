@@ -56,8 +56,34 @@
         margin-right: 18px;
     }
 
+    .nome-monitor{
+        font-size: 17px;
+    }
+
     .caixa-detalhes-monitores-gamers{
-        display: none;
+        display: block;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;  
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding-top: 10px;
+        padding-bottom: 17px;
+        padding-left: 5px;
+    }
+
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        margin-bottom: -10px;
+        color: black;
+        font-family:var(--font-links);
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 500;
     }
 }
 
@@ -308,6 +334,20 @@
         padding-right: 7px;
     }
 
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: 300;
+        font-family:var(--font-links);
+        text-align: justify;
+        line-height: 10px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 500;
+    }
+
     .caixa-descrição-monitor-predator{
         width: 500px;
         margin-left: 50px;
@@ -340,20 +380,6 @@
 
     #img-z{
         border-radius: 50%;
-    }
-
-    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
-        color: rgb(0, 0, 0);
-        font-size: 1em;
-        font-weight: 300;
-        font-family:var(--font-links);
-        text-align: justify;
-        line-height: 10px;
-    }
-
-    .paragrafos-elementos-monitor > strong{
-        color: black;
-        font-weight: 500;
     }
 
     .caixa-valores-monitor{
